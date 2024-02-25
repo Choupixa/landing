@@ -1,0 +1,938 @@
+{
+	"portrait": [
+		{
+			"id": "background",
+			"tagName": "DIV",
+			"classes": "background",
+			"style": {
+				"style": {
+					"position": "absolute",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "#91b2f2"
+				},
+				"text": ""
+			}
+		}
+	],
+	"paysage": [
+		{
+			"id": "global",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "relative",
+					"width": "97.5svw",
+					"height": "calc(100svh - 2.5svw)",
+					"background-color": "rgb(34, 34, 38)",
+					"opacity": "1",
+					"top": "1.25svw",
+					"left": "1.25svw",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "header",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "global",
+				"style": {
+					"display": "block",
+					"position": "relative",
+					"width": "97.5svw",
+					"height": "18svh",
+					"opacity": "1",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden",
+					"font-size": "85%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "laboranthLogoFit",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/laboranthLogoFit.svg"
+				}
+			],
+			"style": {
+				"parent": "header",
+				"style": {
+					"position": "relative",
+					"height": "80%",
+					"top": "10%",
+					"left": "1.25svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "connexion",
+			"tagName": "BUTTON",
+			"attributes": [],
+			"style": {
+				"parent": "header",
+				"style": {
+					"position": "absolute",
+					"width": "10%",
+					"height": "30%",
+					"background-color": "rgba(156, 115, 21, 0)",
+					"opacity": "1",
+					"right": "calc(250px - 1.25svw)",
+					"top": "35%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"border-top-width": "initial",
+					"border-right-width": "initial",
+					"border-bottom-width": "initial",
+					"border-left-width": "initial",
+					"border-top-style": "none",
+					"border-right-style": "none",
+					"border-bottom-style": "none",
+					"border-left-style": "none",
+					"border-top-color": "initial",
+					"border-right-color": "initial",
+					"border-bottom-color": "initial",
+					"border-left-color": "initial",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"cursor": "pointer",
+					"font-size": "unset"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "nav-lab",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.laboranth.tech"
+				}
+			],
+			"classes": "link",
+			"style": {
+				"parent": "connexion",
+				"style": {
+					"color": "white",
+					"text-decoration-line": "none",
+					"text-decoration-thickness": "initial",
+					"text-decoration-style": "initial",
+					"text-decoration-color": "initial"
+				},
+				"text": "Se connecter",
+				"textArray": []
+			}
+		},
+		{
+			"id": "demoCTABkd",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.linkedin.com/company/laboranth"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "header",
+				"style": {
+					"position": "absolute",
+					"display": "flex",
+					"width": "25%",
+					"height": "40%",
+					"background-color": "rgb(255, 255, 255)",
+					"opacity": "1",
+					"right": "1.25svw",
+					"top": "30%",
+					"border-top-left-radius": "40px",
+					"border-top-right-radius": "40px",
+					"border-bottom-right-radius": "40px",
+					"border-bottom-left-radius": "40px",
+					"border-top-width": "initial",
+					"border-right-width": "initial",
+					"border-bottom-width": "initial",
+					"border-left-width": "initial",
+					"border-top-style": "none",
+					"border-right-style": "none",
+					"border-bottom-style": "none",
+					"border-left-style": "none",
+					"border-top-color": "initial",
+					"border-right-color": "initial",
+					"border-bottom-color": "initial",
+					"border-left-color": "initial",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"flex-direction": "row",
+					"align-items": "center",
+					"max-width": "200px",
+					"justify-content": "space-between",
+					"cursor": "pointer",
+					"color": "rgb(34, 34, 38)",
+					"text-decoration-line": "none",
+					"text-decoration-thickness": "initial",
+					"text-decoration-style": "initial",
+					"text-decoration-color": "initial",
+					"padding-left": "2%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "demoCTA",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.linkedin.com/company/laboranth"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "header",
+				"style": {
+					"position": "absolute",
+					"display": "flex",
+					"width": "25%",
+					"height": "40%",
+					"background-color": "rgba(252, 206, 101, 0.4)",
+					"opacity": "1",
+					"right": "1.25svw",
+					"top": "30%",
+					"border-top-left-radius": "40px",
+					"border-top-right-radius": "40px",
+					"border-bottom-right-radius": "40px",
+					"border-bottom-left-radius": "40px",
+					"border-top-width": "initial",
+					"border-right-width": "initial",
+					"border-bottom-width": "initial",
+					"border-left-width": "initial",
+					"border-top-style": "none",
+					"border-right-style": "none",
+					"border-bottom-style": "none",
+					"border-left-style": "none",
+					"border-top-color": "initial",
+					"border-right-color": "initial",
+					"border-bottom-color": "initial",
+					"border-left-color": "initial",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"flex-direction": "row",
+					"align-items": "center",
+					"max-width": "200px",
+					"justify-content": "space-between",
+					"cursor": "pointer",
+					"color": "rgb(34, 34, 38)",
+					"text-decoration-line": "none",
+					"text-decoration-thickness": "initial",
+					"text-decoration-style": "initial",
+					"text-decoration-color": "initial",
+					"padding-left": "2%"
+				},
+				"text": "Obtenir une démo live",
+				"textArray": []
+			}
+		},
+		{
+			"id": "arrlowLink",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/arrlowLink.svg"
+				}
+			],
+			"style": {
+				"parent": "demoCTA",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"height": "85%",
+					"padding-right": "2%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "main",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "global",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"width": "97.5svw",
+					"height": "70svh",
+					"opacity": "1",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "text",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "main",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"width": "50%",
+					"height": "100%",
+					"background-color": "rgb(213, 183, 151)",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden",
+					"font-size": "150%",
+					"flex-direction": "column",
+					"justify-content": "space-between"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "title",
+			"tagName": "H1",
+			"attributes": [],
+			"style": {
+				"parent": "text",
+				"style": {
+					"position": "relative",
+					"width": "100%",
+					"height": "10%",
+					"color": "white",
+					"opacity": "1",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px"
+				},
+				"text": "Élaboration sans limites :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "hook",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "text",
+				"style": {
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"font-size": "150%"
+				},
+				"text": "",
+				"textArray": [
+					{
+						"node": "text",
+						"pos": 0,
+						"textContent": "libérez votre potentiel "
+					},
+					{
+						"node": "BR",
+						"pos": 1
+					},
+					{
+						"node": "text",
+						"pos": 2,
+						"textContent": " créatif "
+					},
+					{
+						"node": "SPAN",
+						"pos": 3,
+						"textContent": "",
+						"style": ""
+					},
+					{
+						"node": "text",
+						"pos": 4,
+						"textContent": " et contribuez à un "
+					},
+					{
+						"node": "BR",
+						"pos": 5
+					},
+					{
+						"node": "text",
+						"pos": 6,
+						"textContent": " avenir numérique durable."
+					}
+				]
+			}
+		},
+		{
+			"id": "explain",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "text",
+				"style": {
+					"position": "relative",
+					"width": "100%",
+					"height": "10%",
+					"color": "white",
+					"opacity": "1",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px"
+				},
+				"text": "Élaboration sans limites :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "demo",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "text",
+				"style": {
+					"position": "relative",
+					"width": "100%",
+					"height": "15%",
+					"color": "white",
+					"opacity": "1",
+					"background-color": "coral",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "partner",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "text",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"width": "100%",
+					"height": "15%",
+					"color": "white",
+					"opacity": "1",
+					"background-color": "blueviolet",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "textPartner",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "partner",
+				"style": {
+					"position": "relative",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"flex-direction": "row"
+				},
+				"text": "Ils parlent de nous :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "imagePartner",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "partner",
+				"style": {
+					"width": "80%",
+					"height": "100%",
+					"display": "flex",
+					"position": "relative",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"flex-direction": "row",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "frenchTech",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/frenchTech.svg"
+				}
+			],
+			"style": {
+				"parent": "imagePartner",
+				"style": {
+					"position": "relative",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "illustration",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "main",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"width": "50%",
+					"height": "100%",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden",
+					"font-size": "150%",
+					"flex-direction": "column",
+					"justify-content": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "illu",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/illu.svg"
+				},
+				{
+					"attributeName": "data-pin-me-only",
+					"attributeValue": "true"
+				}
+			],
+			"style": {
+				"parent": "illustration",
+				"style": {
+					"position": "relative",
+					"height": "90%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "footer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "global",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"width": "97.5svw",
+					"height": "calc(100svh - 18svh - 70svh - 2.5svw)",
+					"overflow-x": "hidden",
+					"overflow-y": "hidden",
+					"color": "rgb(128, 128, 128)",
+					"font-size": "65%",
+					"flex-direction": "row-reverse",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "social",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "footer",
+				"style": {
+					"display": "flex",
+					"width": "15%",
+					"height": "100%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "2%",
+					"padding-right": "2%",
+					"padding-bottom": "2%",
+					"padding-left": "2%",
+					"align-items": "center",
+					"justify-content": "space-evenly"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "linkedin",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "aria-label",
+					"attributeValue": "LinkedIn Laboranth>"
+				},
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.linkedin.com/company/laboranth"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "social",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"height": "35%",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "linkedinLogo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/linkedin.svg"
+				},
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.linkedin.com/company/laboranth"
+				},
+				{
+					"attributeName": "alt",
+					"attributeValue": "Logo LinkedIn"
+				}
+			],
+			"style": {
+				"parent": "linkedin",
+				"style": {
+					"position": "relative"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "discord",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "aria-label",
+					"attributeValue": "LinkedIn Laboranth>"
+				},
+				{
+					"attributeName": "href",
+					"attributeValue": "https://discord.gg/7fWFgGhDn2"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "social",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"height": "35%",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "discordLogo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/discord.svg"
+				},
+				{
+					"attributeName": "data-pin-me-only",
+					"attributeValue": "true"
+				}
+			],
+			"style": {
+				"parent": "discord",
+				"style": {
+					"position": "relative"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "twitch",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "aria-label",
+					"attributeValue": "LinkedIn Laboranth>"
+				},
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.twitch.tv/laboranth_tech"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "social",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"height": "35%",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "twitchLogo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/twitch.svg"
+				}
+			],
+			"style": {
+				"parent": "twitch",
+				"style": {
+					"position": "relative"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "youtube",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "aria-label",
+					"attributeValue": "LinkedIn Laboranth>"
+				},
+				{
+					"attributeName": "href",
+					"attributeValue": "https://www.youtube.com/@laboranth"
+				},
+				{
+					"attributeName": "target",
+					"attributeValue": "_blank"
+				}
+			],
+			"style": {
+				"parent": "social",
+				"style": {
+					"display": "flex",
+					"position": "relative",
+					"height": "35%",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "youtubeLogo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/svg/youtube.svg"
+				}
+			],
+			"style": {
+				"parent": "youtube",
+				"style": {
+					"position": "relative"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "copyright",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "footer",
+				"style": {
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "2%",
+					"padding-right": "2%",
+					"padding-bottom": "2%",
+					"padding-left": "2%"
+				},
+				"text": "© 2024 - Laboranth› ",
+				"textArray": []
+			}
+		},
+		{
+			"id": "legal",
+			"tagName": "BUTTON",
+			"attributes": [
+				{
+					"attributeName": "conditions",
+					"attributeValue": ""
+				},
+				{
+					"attributeName": "générales",
+					"attributeValue": ""
+				},
+				{
+					"attributeName": "de",
+					"attributeValue": ""
+				},
+				{
+					"attributeName": "laboranth",
+					"attributeValue": ""
+				}
+			],
+			"style": {
+				"parent": "footer",
+				"style": {
+					"background-color": "unset",
+					"border-top-width": "initial",
+					"border-right-width": "initial",
+					"border-bottom-width": "initial",
+					"border-left-width": "initial",
+					"border-top-style": "none",
+					"border-right-style": "none",
+					"border-bottom-style": "none",
+					"border-left-style": "none",
+					"border-top-color": "initial",
+					"border-right-color": "initial",
+					"border-bottom-color": "initial",
+					"border-left-color": "initial",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "2%",
+					"padding-right": "2%",
+					"padding-bottom": "2%",
+					"padding-left": "2%",
+					"color": "rgb(128, 128, 128)"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "legalDoc",
+			"tagName": "A",
+			"attributes": [
+				{
+					"attributeName": "href",
+					"attributeValue": "/content/ressources/medias/legal/LegalLaboranthSAS.pdf"
+				}
+			],
+			"style": {
+				"parent": "legal",
+				"style": {
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "2%",
+					"padding-right": "2%",
+					"padding-bottom": "2%",
+					"padding-left": "2%",
+					"color": "rgb(128, 128, 128)",
+					"text-decoration-line": "none",
+					"text-decoration-thickness": "initial",
+					"text-decoration-style": "initial",
+					"text-decoration-color": "initial"
+				},
+				"text": "Légal",
+				"textArray": []
+			}
+		}
+	]
+}

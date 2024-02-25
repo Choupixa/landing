@@ -1,0 +1,28 @@
+body {
+    display: block;
+    position: absolute;
+    width: 100svw;
+    height: 100svh;
+    background-color: rgb(252, 206, 101, 0.2);
+    left: 0svw;
+    top: 0svh;
+    overflow: hidden;    z-index: 1;
+}
+
+
+.link:hover {
+    text-decoration: underline dotted ;
+}
+
+.link:before {
+    text-decoration: none ;
+}
+
+#hook span {
+    display: inline-block;
+ width : 10px;
+    height: 10px;
+    background-image: url('/content/ressources/medias/main/molecule.svg'); /* URL de votre image de fond */
+line-height: inherit; /* Hérite de la hauteur de ligne de l'élément parent */
+    vertical-align: middle; /* Centre verticalement par rapport à la ligne */
+}
